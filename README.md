@@ -55,10 +55,9 @@ For each experiment, we explain how to perform the experiment.
 3. Run "Experiment_test.sh" and see the results in the "results" folder to see if the code works.
 4. Run "Experiment_paper.sh" and see the results in the "results."
 
-
-## Contribution
-
 ## Licence
+
+
 
 ## Author
 
