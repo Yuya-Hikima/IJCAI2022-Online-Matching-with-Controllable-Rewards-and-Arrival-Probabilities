@@ -55,7 +55,7 @@ The following is a description of what is in each folder.
 ## Requirement
 It is desirable to have a license of Gurobi solver.
 If you do not have a license for Gurobi solver, you can use a free CBC solver instead of gurobi.
-(However, the performance of CU-A, BO-A, and RS-A is slightly lower by the replacement.)
+(However, the performance of baselines of CU-A, BO-A, and RS-A is slightly lower by the replacement.)
 
 ## Usage
 For each experiment, we explain how to perform the experiment.
