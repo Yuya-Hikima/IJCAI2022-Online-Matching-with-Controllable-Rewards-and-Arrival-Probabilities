@@ -9,6 +9,19 @@ Contents of this repository:
 - Crowd-sourcing_experiment It contains the code used in the crowd-sourcing platform experiment and the code needed to set up the experiment, including data downloads.
 - Ride-sharing_experiment It contains the code used in the ride-sharing platform experiment and the code needed to set up the experiment, including data downloads.
 
+The data for crowd-sourcing experiments are downloaded from
+  
+http://dbgroup.cs.tsinghua.edu.cn/ligl/crowddata/
+  
+Chris Buckley, Matthew Lease, and Mark D. Smucker. "Overview of the TREC 2010 Relevance Feedback Track (Notebook)." In TREC, 2010.
+
+The data for ride-sharing experiments are downloaded from
+  
+http://dbgroup.cs.tsinghua.edu.cn/ligl/crowddata/
+  
+Chris Buckley, Matthew Lease, and Mark D. Smucker. "Overview of the TREC 2010 Relevance Feedback Track (Notebook)." In TREC, 2010.
+
+
 ## Description
 
 The following is a description of what is in each folder.
