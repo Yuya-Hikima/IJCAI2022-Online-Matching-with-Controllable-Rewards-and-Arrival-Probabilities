@@ -12,6 +12,7 @@ Contents of this repository:
 The data for crowd-sourcing experiments are downloaded from
   
 http://dbgroup.cs.tsinghua.edu.cn/ligl/crowddata/ (Relevance Finding dataset)
+  
 Chris Buckley, Matthew Lease, and Mark D. Smucker. "Overview of the TREC 2010 Relevance Feedback Track (Notebook)." In TREC, 2010.
 
 The data for ride-sharing experiments are downloaded from TLC Trip Record Data:
