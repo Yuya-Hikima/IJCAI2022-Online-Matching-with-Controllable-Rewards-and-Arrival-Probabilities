@@ -48,7 +48,10 @@ The following is a description of what is in each folder.
     - **generate_reward_matrix.py** It is executed by setup.sh to make simulation data from the real data
     - **experiment_ridesharing_gurobi.py** It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data
     - **experiment_ridesharing_cbc.py** Experimental code to replace the above if you do not have a globi license
-  - **data** Folder containing the downloaded real data
+  - **data** Folder containing the downloaded data and the ID information for dividing Manhattan into 20 areas
+    - **locationID_to_DO_aggregated_ID.csv** 
+    - **locationID_to_PU_aggregated_ID.csv** 
+    - **Aggregated_location** 
   - **results** Folder containing the results
     - **result_m=XX_n=XX_T=XX_BOruntime=XX_RSruntime=XX_simulations=XX.csv** The data containig results for a given parameter set
 
