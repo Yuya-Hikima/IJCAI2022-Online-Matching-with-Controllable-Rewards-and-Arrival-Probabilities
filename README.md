@@ -41,13 +41,13 @@ The following is a description of what is in each folder.
   - **results** Folder containing the results
     - **result_m=XX_n=XX_T=XX_BOruntime=XX_RSruntime=XX_simulations=XX.csv** The data containig results for a given parameter set
 
-
-
-## VS. 
-
 ## Requirement
+It is desirable to have a license of gurobi.
+If you do not have a license for gurobi, you can use a free CBC solver instead of gurobi.
+(However, the performance of CU-A, BO-A, and RS-A is slightly lower by the replacement.)
 
 ## Usage
+
 
 ## Install
 
