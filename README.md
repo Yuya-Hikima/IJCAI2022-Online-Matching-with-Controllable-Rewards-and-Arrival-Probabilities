@@ -42,7 +42,6 @@ The following is a description of what is in each folder.
     - **result_m=XX_n=XX_T=XX_BOruntime=XX_RSruntime=XX_simulations=XX.csv** The data containig results for a given parameter set
 
 
-## Demo
 
 ## VS. 
 
@@ -56,8 +55,5 @@ The following is a description of what is in each folder.
 
 ## Licence
 
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
-
 ## Author
 
-[tcnksm](https://github.com/tcnksm)
