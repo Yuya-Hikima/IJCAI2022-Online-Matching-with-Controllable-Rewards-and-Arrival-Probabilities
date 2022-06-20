@@ -56,8 +56,9 @@ For each experiment, we explain how to perform the experiment.
 4. Run "Experiment_paper.sh" and see the results in the "results."
 
 ## Licence
-
-
+You must follow the terms of the "SOFTWARE LICENSE AGREEMENT FOR EVALUATION".
+Be sure to read it.
 
 ## Author
-
+This text was written by Yuya Hikima.
+If you have any problems, please contact yuya.hikima at gmail.com.
