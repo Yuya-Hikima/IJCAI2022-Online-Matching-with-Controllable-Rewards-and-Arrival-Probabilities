@@ -19,7 +19,7 @@ Contents of this repository:
 
 The data for crowd-sourcing experiments are downloaded from
   
-http://dbgroup.cs.tsinghua.edu.cn/ligl/crowddata/ (Relevance Finding dataset)
+http://dbgroup.cs.tsinghua.edu.cn/ligl/crowddata/ (Relevance Finding dataset).
   
 The data are shared by
   
