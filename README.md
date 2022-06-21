@@ -10,8 +10,12 @@ This repository contains the codes for the experiments performed in the followin
 Yuya Hikima, Yasunori Akagi, Naoki Marumo, and Hideaki Kim. "Online Matching with Controllable Rewards and ArrivalProbabilities." In IJCAI, 2022 (in press).
   
 Contents of this repository:
+- **README**
+- **SOFTWARE LICENSE AGREEMENT**
 - **Crowd-sourcing_experiment folder:** It contains the code used in the crowd-sourcing platform experiment and the code needed to set up the experiment, including data downloads.
 - **Ride-sharing_experiment folder:** It contains the code used in the ride-sharing platform experiment and the code needed to set up the experiment, including data downloads.
+- **Details of experiments.pdf** 
+- **Proof of Lemma2.pdf**
 
 The data for crowd-sourcing experiments are downloaded from
   
