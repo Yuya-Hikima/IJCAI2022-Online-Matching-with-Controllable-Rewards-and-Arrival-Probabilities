@@ -78,12 +78,18 @@ For each experiment, we explain how to perform the experiment.
 2. If you do not have a license for Gurobi solver, replace "_gurobi" with "_cbc" inside Experiment_paper.sh and Experiment_test.sh.
 3. Run "Experiment_test.sh" and see the results in the "results" folder to see if the code works.
 4. Run "Experiment_paper.sh" and see the results in the "results." Note that this code takes a very long time to execute and is not parallelized.
+  
+If you want to set parameters yourself, go to the Crowd-sourcing_experiment/bin folder and run "experiment_crowdsourcing_gurobi.py m n T BO_runtime RS_runtime num_simulations."
+The first argument is $m$ (number of tasks), the second is $n$ (number of users), the third is $T$ (number of user appearance), the fourth is the execution time of Bayesian optimization (in seconds), the fifth is the execution time of random search (in seconds), and the sixth is the number of simulations.
 
 **Ride-sharing experiments** 
 1. Go to the Ride-sharing_experiment folder and run "setup.sh."
 2. If you do not have a license for Gurobi solver, replace "_gurobi" with "_cbc" inside Experiment_paper.sh and Experiment_test.sh.
 3. Run "Experiment_test.sh" and see the results in the "results" folder to see if the code works.
 4. Run "Experiment_paper.sh" and see the results in the "results." Note that this code takes a very long time to execute and is not parallelized.
+
+If you want to set parameters yourself, go to the Ride-sharing_experiment/bin folder and run "experiment_rideshare_gurobi.py month day BO_runtime RS_runtime num_simulations."
+The first argument is the target month, the second argument is the target day, the third argument is the run time of the Bayesian optimization (in seconds), the fourth argument is the run time of the random search (in seconds), and the fifth argument is the number of simulations.
 
 ## Licence
 You must follow the terms of the "SOFTWARE LICENSE AGREEMENT FOR EVALUATION".
