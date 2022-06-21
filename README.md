@@ -77,7 +77,14 @@ For each experiment, we explain how to perform the experiment.
 1. Go to the Crowd-sourcing_experiment folder and run "bash setup.sh."
 2. If you do not have a license for Gurobi solver, replace "_gurobi" with "_cbc" inside Experiment_paper.sh and Experiment_test.sh.
 3. Run "Experiment_test.sh" and see the results in the "results" folder to see if the code works.
-4. Run "Experiment_paper.sh" and see the results in the "results." Note that 
+4. Run "Experiment_paper.sh" and see the results in the "results." Note that this code takes a very long time to execute and is not parallelized.
+
+**Ride_experiment** 
+1. Go to the Crowd-sourcing_experiment folder and run "bash setup.sh."
+2. If you do not have a license for Gurobi solver, replace "_gurobi" with "_cbc" inside Experiment_paper.sh and Experiment_test.sh.
+3. Run "Experiment_test.sh" and see the results in the "results" folder to see if the code works.
+4. Run "Experiment_paper.sh" and see the results in the "results." Note that this code takes a very long time to execute and is not parallelized.
+
 
 ## Licence
 You must follow the terms of the "SOFTWARE LICENSE AGREEMENT FOR EVALUATION".
