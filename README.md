@@ -14,8 +14,8 @@ Contents of this repository:
 - **SOFTWARE LICENSE AGREEMENT FOR EVALUATION** The user must comply with the rules described herein.
 - **Crowd-sourcing_experiment folder:** It contains the code used in the crowd-sourcing platform experiment and the code needed to set up the experiment, including data downloads.
 - **Ride-sharing_experiment folder:** It contains the code used in the ride-sharing platform experiment and the code needed to set up the experiment, including data downloads.
-- **Details of experiments.pdf** It contains detailed information on our experiments.
-- **Proof of Lemma2.pdf** It contains the proof of Lemma2 of our paper which is not included in the paper.
+- **Details_of_experiments.pdf** It contains detailed information on our experiments.
+- **Proof_of_Lemma2.pdf** It contains the proof of Lemma2 of our paper which is not included in the paper.
 
 The data for crowd-sourcing experiments are downloaded from
   
