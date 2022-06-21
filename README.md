@@ -23,7 +23,7 @@ Chris Buckley, Matthew Lease, and Mark D. Smucker. "Overview of the TREC 2010 Re
 
 The data for ride-sharing experiments are downloaded from TLC Trip Record Data:
   
-https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page (Yellow Taxi Trip Records on January-March, 2019)
+https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page (Yellow Taxi Trip Records on January-March, 2019).
 
 
 ## Description
@@ -73,7 +73,7 @@ For each experiment, we explain how to perform the experiment.
 1. Go to the Crowd-sourcing_experiment folder and run "bash setup.sh."
 2. If you do not have a license for Gurobi solver, replace "_gurobi" with "_cbc" inside Experiment_paper.sh and Experiment_test.sh.
 3. Run "Experiment_test.sh" and see the results in the "results" folder to see if the code works.
-4. Run "Experiment_paper.sh" and see the results in the "results."
+4. Run "Experiment_paper.sh" and see the results in the "results." Note that 
 
 ## Licence
 You must follow the terms of the "SOFTWARE LICENSE AGREEMENT FOR EVALUATION".
