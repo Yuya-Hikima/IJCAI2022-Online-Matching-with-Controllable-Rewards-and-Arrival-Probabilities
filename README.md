@@ -56,7 +56,7 @@ The following is a description of what is in each folder.
   - **bin** Folder containing the python code needed for the ride-sharing experiments
     - **data_download.py** It is executed by setup.sh to download the real data.
     - **generate_reward_matrix.py** It is executed by setup.sh to make simulation data from the real data
-    - **experiment_ridesharing_gurobi.py** It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data. The first argument is the target month, the second argument is the target day, the third argument is the run time of the Bayesian optimization (in seconds), the fourth argument is the run time of the random search (in seconds), and the fifth argument is the number of simulations.
+    - **experiment_ridesharing_gurobi.py** It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data. The first argument is the target month, the second argument is the target day, the third argument is the execution time limit of the Bayesian optimization (in seconds), the fourth argument is the execution time limit of the random search (in seconds), and the fifth argument is the number of simulations.
     - **experiment_ridesharing_cbc.py** Experimental code to replace the above if you do not have a Gurobi license
   - **data** Folder containing the downloaded data and the ID information for dividing Manhattan into 20 areas
     - **locationID_to_DO_aggregated_ID.csv** Data showing the correspondence to 20 area IDs for the area ID of the original data
