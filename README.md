@@ -66,8 +66,7 @@ The following is a description of what is in each folder.
     - **result_month=XX_day=XX_BOruntime=XX_RSruntime=XX_simulations=XX.csv** The data containig results for a given parameter set
 
 ## Requirement
-Codes were implemented in Python 3.6.8.
-It is desirable to have a license of the Gurobi solver. Original codes use Gurobi 8.0.1.
+Codes were implemented in Python 3.6.8 and use the solver of Gurobi 8.0.1.
 If you do not have a license for the Gurobi solver, you can use a free CBC solver instead.
 (However, the performance of baselines of CU-A, BO-A, and RS-A is slightly lower by the replacement.)
 
