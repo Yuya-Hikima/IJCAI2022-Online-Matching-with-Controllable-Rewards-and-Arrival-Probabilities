@@ -1,9 +1,5 @@
 # IJCAI2022-Online-Matching-with-Controllable-Rewards-and-Arrival-Probabilities
 
-## Remark
-
-This repository is in preparation.
-
 ## Overview
 This repository contains the codes for the experiments performed in the following papers:
   
