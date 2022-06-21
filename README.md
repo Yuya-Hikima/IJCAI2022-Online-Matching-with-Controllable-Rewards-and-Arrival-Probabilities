@@ -40,7 +40,7 @@ The following is a description of what is in each folder.
   - **bin** Folder containing the python code needed for the crowd-sourcing experiments
     - **data_download.py** It is executed by setup.sh to download the real data.
     - **generate_reward_matrix.py** It is executed by setup.sh to make simulation data from the real data.
-    - **experiment_crowdsourcing_gurobi.py** It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data
+    - **experiment_crowdsourcing_gurobi.py** It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data. The first argument is $m$ (number of tasks), the second is $n$ (number of users), the third is $T$ (number of user appearance), the fourth is the execution time of Bayesian optimization (in seconds), the fifth is the execution time of random search (in seconds), and the sixth is the number of simulations.
     - **experiment_crowdsourcing_cbc.py** Experimental code to replace the above if you do not have a grobi license
   - **data** Folder where the downloaded data is stored
   - **work** Folder where the simulation data is stored
@@ -56,7 +56,7 @@ The following is a description of what is in each folder.
   - **bin** Folder containing the python code needed for the ride-sharing experiments
     - **data_download.py** It is executed by setup.sh to download the real data.
     - **generate_reward_matrix.py** It is executed by setup.sh to make simulation data from the real data
-    - **experiment_ridesharing_gurobi.py** It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data
+    - **experiment_ridesharing_gurobi.py** It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data. The first argument is the target month, the second argument is the target day, the third argument is the run time of the Bayesian optimization (in seconds), the fourth argument is the run time of the random search (in seconds), and the fifth argument is the number of simulations.
     - **experiment_ridesharing_cbc.py** Experimental code to replace the above if you do not have a globi license
   - **data** Folder containing the downloaded data and the ID information for dividing Manhattan into 20 areas
     - **locationID_to_DO_aggregated_ID.csv** Data showing the correspondence to 20 area IDs for the area ID of the original data
@@ -73,18 +73,17 @@ If you do not have a license for Gurobi solver, you can use a free CBC solver in
 ## Usage
 For each experiment, we explain how to perform the experiment.
 
-**Crowd-sourcing_experiment** 
-1. Go to the Crowd-sourcing_experiment folder and run "bash setup.sh."
+**Crowd-sourcing experiments** 
+1. Go to the Crowd-sourcing_experiment folder and run "setup.sh."
 2. If you do not have a license for Gurobi solver, replace "_gurobi" with "_cbc" inside Experiment_paper.sh and Experiment_test.sh.
 3. Run "Experiment_test.sh" and see the results in the "results" folder to see if the code works.
 4. Run "Experiment_paper.sh" and see the results in the "results." Note that this code takes a very long time to execute and is not parallelized.
 
-**Ride_experiment** 
-1. Go to the Crowd-sourcing_experiment folder and run "bash setup.sh."
+**Ride-sharing experiments** 
+1. Go to the Ride-sharing_experiment folder and run "setup.sh."
 2. If you do not have a license for Gurobi solver, replace "_gurobi" with "_cbc" inside Experiment_paper.sh and Experiment_test.sh.
 3. Run "Experiment_test.sh" and see the results in the "results" folder to see if the code works.
 4. Run "Experiment_paper.sh" and see the results in the "results." Note that this code takes a very long time to execute and is not parallelized.
-
 
 ## Licence
 You must follow the terms of the "SOFTWARE LICENSE AGREEMENT FOR EVALUATION".
