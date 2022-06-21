@@ -74,7 +74,7 @@ If you do not have a license for the Gurobi solver, you can use a free CBC solve
 For each experiment, we explain how to perform it.
 
 **Crowd-sourcing experiments** 
-1. Go to the Crowd-sourcing_experiment folder, make "results" and "data" folder, and then, run "setup.sh."
+1. Go to the Crowd-sourcing_experiment folder, make "results", "data" and "work" folder, and then, run "setup.sh."
 2. If you do not have a license for the Gurobi solver, replace "_gurobi" with "_cbc" inside Experiment_paper.sh and Experiment_test.sh.
 3. Run "Experiment_test.sh" and see the results in the "results" folder to see if the code works.
 4. Run "Experiment_paper.sh" and see the results in the "results." Note that this code takes a long time to execute and is not parallelized.
