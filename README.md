@@ -3,7 +3,7 @@
 ## Overview
 This repository contains the codes for the experiments performed in the following papers:
   
-Yuya Hikima, Yasunori Akagi, Naoki Marumo, and Hideaki Kim. "Online Matching with Controllable Rewards and Arrival Probabilities." In IJCAI, 2022 (in press).
+Yuya Hikima, Yasunori Akagi, Naoki Marumo, and Hideaki Kim. "Online Matching with Controllable Rewards and Arrival Probabilities." In IJCAI, pages 1825-1833, 2022.
   
 Contents of this repository:
 - **README** This file.
