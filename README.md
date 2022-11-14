@@ -55,6 +55,7 @@ The following is a description of what is in each folder.
     - **experiment_ridesharing_gurobi.py** It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data. The first argument is the target month, the second argument is the target day, the third argument is the execution time limit of the Bayesian optimization (in seconds), the fourth argument is the execution time limit of the random search (in seconds), and the fifth argument is the number of simulations.
     - **experiment_ridesharing_cbc.py** Experimental code to replace the above if you do not have a Gurobi license
   - **data** Folder containing the downloaded data and the ID information for dividing Manhattan into 20 areas
+    - **location_data.csv**  Data obtained by adding the latitude and longitude of the center of gravity to the taxi zone map file available at https://data.cityofnewyork.us/Transportation/NYC-Taxi-Zones/d3c5-ddgc. 
     - **locationID_to_DO_aggregated_ID.csv** Data showing the correspondence to 20 area IDs for the area ID of the original data
     - **locationID_to_PU_aggregated_ID.csv** Data showing the correspondence to 20 area IDs for the area ID of the original data
     - **Aggregated_location** Location data for 20 area IDs
